@@ -19,7 +19,7 @@ while qtd !=0:
     lista.clear()
     qtd -=1
 print(f'+{"-"*37}+')
-print(f'|{"MEGA SENA":^70}|')    
+print(f'|{"MEGA SENA":^37}|')    
 print(f'+{"-"*37}+')
 for i,v in enumerate(jogos):
     print(f'|{i+1}º jogo{f"{v}":^30}|')
